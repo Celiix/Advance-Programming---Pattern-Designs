@@ -28,6 +28,22 @@ How to play!
 ------------------------------
 Maze Solver - State Design
 ---------------------
+This is a 1 player game, the player must go through the maze and find a path to reach the destination.
+To do this use your arrow keys on your computer/ laptop to direct your character to the destination.
+When successful, a message will pop up to congratulate you.
+Then either your path or an alternative path will appear to display to you a the quickest path. 
+
+1. Game opened
+
+   ![1 Game Open](https://github.com/Celiix/Advance-Programming---Pattern-Designs/assets/92170983/ec4db616-776d-4ca3-9bc9-574da410c224)
+
+2. Find the path way!
+   
+![gif maze solver](https://github.com/Celiix/Advance-Programming---Pattern-Designs/assets/92170983/002ef0fa-f5d8-408e-ae15-bf4fff7400cb)
+
+3. Maze solved!
+
+![2 Solve maze](https://github.com/Celiix/Advance-Programming---Pattern-Designs/assets/92170983/84f2b643-749c-45a2-880e-15ba24bddb59)
 
 TicTacToe - Strategy Design
 -------------------------------------
