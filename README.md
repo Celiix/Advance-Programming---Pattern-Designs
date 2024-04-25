@@ -1,4 +1,4 @@
-# Advance-Programming---Pattern-Designs
+# Advance-Programming--Pattern-Designs
 -------------------------------------------------
 * Design Patterns used - State and Stategy design pattern.
 * Code created using IntelliJ - Language used Java.
@@ -37,7 +37,7 @@ Then either your path or an alternative path will appear to display to you a the
 
    ![1 Game Open](https://github.com/Celiix/Advance-Programming---Pattern-Designs/assets/92170983/ec4db616-776d-4ca3-9bc9-574da410c224)
 
-2. Find the path way!
+2. Find the path way with your arrow keys!
    
 ![gif maze solver](https://github.com/Celiix/Advance-Programming---Pattern-Designs/assets/92170983/002ef0fa-f5d8-408e-ae15-bf4fff7400cb)
 
@@ -69,5 +69,4 @@ After the winner, the game will reset to a fresh start.
 ![4 Game drawn](https://github.com/Celiix/Advance-Programming---Pattern-Designs/assets/92170983/f9b622e1-d085-40f7-989b-b5f000d5b1d1)
 
 
-
-
+Have Fun!
