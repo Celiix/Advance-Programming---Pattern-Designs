@@ -57,7 +57,7 @@ public class MazeGameApplication extends Application {
             playerX = rand.nextInt(maze.getMazeGrid()[0].length - 2) + 1;
             playerY = rand.nextInt(maze.getMazeGrid().length - 2) + 1;
         } while (maze.getMazeGrid()[playerY][playerX] == 1);
-        player = new Player(playerX, playerY);
+        player = new Player(playerX, playerY); //Creating a new Player object and storing its reference
 
         initialPlayerX = playerX;
         initialPlayerY = playerY;
