@@ -21,7 +21,7 @@ public class MazeSolver {
      * @param destinationY the destination y
      */
     public MazeSolver(Maze maze, int destinationX, int destinationY) {
-        this.maze = maze;
+        this.maze = maze; // Assigning a reference to the Maze object
         this.destinationX = destinationX;
         this.destinationY = destinationY;
         this.visited = new boolean[maze.getMazeGrid().length][maze.getMazeGrid()[0].length];
