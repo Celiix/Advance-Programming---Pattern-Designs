@@ -1,0 +1,16 @@
+ic Tac Toe 
+
+ Game Flow:
+
+1.	The player starts the Tic Tac Toe game.
+2.	The game initialises the game state and the graphical user interface (GUI) components.
+3.	The game prompts the current player to make a move by clicking on a cell in the game board.
+4.	The player clicks on a cell.
+5.	The game checks if the move is valid (i.e., the selected cell is empty).
+6.	If the move is valid, the game updates the board and GUI with the player's symbol.
+7.	If the move is invalid, the game displays an "Invalid Move" message.
+8.	The game determines the current game state based on the updated board.
+9.	If the game is not over, the game updates the turn and prompts the next player to make a move (go back to step 3).
+10.	If the game is over (i.e., a player has won, or the board is full), the game proceeds to the next step.
+11.	The game displays the result in a dialog box (e.g., "Player X wins!" or "It's a draw!").
+12.	The game resets the board and the game state and prompts the players to start a new game (go back to step 3).

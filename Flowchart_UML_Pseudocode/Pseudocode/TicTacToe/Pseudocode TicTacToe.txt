@@ -1,0 +1,41 @@
+TicTacToe
+
+Pseudocode: The pseudocode below outlines the main functionality of the TicTacToe class, which handles the GUI and game logic.
+
+START TicTacToe
+    CREATE a new Game object
+    SET the initial game state to InProgressState
+    INITIALIZE GUI components (buttons, labels, etc.)
+    BIND button click events to handleButtonClick()
+
+    FUNCTION handleButtonClick(row, col)
+        GET the current player symbol
+        CALL game.handlePlayerMove(row, col, symbol)
+        UPDATE the button's text and disable it
+        IF game is over
+            DISPLAY the game result
+        UPDATE the turn label with the next player
+
+    FUNCTION updateButton(row, col, player)
+        GET the button at (row, col)
+        SET the button's text to the player symbol
+        DISABLE the button
+        PLAY a fade animation on the button
+
+FUNCTION displayGameResult()
+        IF the game is a draw
+            SHOW "It's a draw!" message
+        ELSE IF there is a winner
+            SHOW the winner's symbol and "wins!" message
+        ELSE
+            SHOW "No winner!" message
+        RESET the game
+
+    FUNCTION resetGameButton()
+        CLEAR all button texts
+        ENABLE all buttons
+        RESET the game state
+        UPDATE the turn label with the initial player
+
+    DISPLAY the GUI
+END TicTacToe

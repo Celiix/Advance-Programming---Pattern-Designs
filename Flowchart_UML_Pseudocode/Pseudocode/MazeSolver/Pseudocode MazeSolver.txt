@@ -1,0 +1,26 @@
+Maze 
+
+Pseudocode: The pseudocode below outlines the main functionality of the MazeGameApplication class.
+
+START MazeGameApplication
+    CREATE a new Maze object
+    INITIALIZE player position randomly
+    INITIALIZE destination position randomly (different from player position)
+    CREATE a Canvas and GraphicsContext
+    CREATE a MazeSolver object
+    DRAW the initial maze on the Canvas
+
+    WHILE game is not over
+        HANDLE player input (arrow keys)
+        IF move is valid
+            UPDATE player position
+            IF player reached destination
+                SHOW victory message
+                RESET player position
+                HIGHLIGHT shortest path
+        REDRAW maze with updated player position and shortest path (if applicable)
+
+    IF game is over
+        SHOW victory message or draw message
+END
+

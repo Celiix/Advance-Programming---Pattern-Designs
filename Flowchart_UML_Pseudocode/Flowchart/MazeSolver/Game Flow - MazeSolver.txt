@@ -1,0 +1,18 @@
+Maze Solver Game 
+
+ Game Flow:
+
+1.	The player starts the game.
+2.	The game initialises the maze, the player's starting position, and the destination position.
+3.	The game draws the initial maze on the screen.
+4.	The game prompts the player for input (arrow keys to move).
+5.	The player enters a move (e.g., up, down, left, or right).
+6.	The game checks if the move is valid (i.e., not a wall).
+7.	If the move is valid, the game updates the player's position.
+8.	If the move is invalid, the game displays an "Invalid Move" message.
+9.	The game checks if the player has reached the destination.
+10.	If the player has reached the destination, the game shows a victory message and highlights the shortest path.
+11.	If the player has not reached the destination, the game redraws the maze with the updated player position.
+12.	The game checks if it is over (i.e., the player has reached the destination, or the maze has no solution).
+13.	If the game is over, the game ends.
+
